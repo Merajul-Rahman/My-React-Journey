@@ -1,0 +1,14 @@
+.block{
+    border: 2px solid hsl(0, 85%, 74%);
+}
+.heading{
+    background-color: aqua;
+}
+.text{
+    color: blueviolet;
+}
+.text:hover{
+    margin: 5px;
+    cursor: pointer;
+    color: aqua;
+}
