@@ -16,6 +16,9 @@ function App()
       <h2 style={h2Style}>This is an example of Inline CSS Using a const to store all the styling of this element</h2>
       <CSSModules/>
       <Person name="Merajul Rahman Shipon" age = {25} email ="shiponrbm@gmail.com" isStudent = {true}/>
+      <Person name="Nusrat Zaman" age = {25} email ="nusrat@gmail.com" isStudent = {true}/>
+      <Person name="Sourov" age = "27" email ="sourov@gmail.com" isStudent = {false}/>
+      <Person name="Mehedi" age = {30} />
     </>
 );
 }

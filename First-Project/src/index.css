@@ -1,8 +1,16 @@
+:root
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .Card{
     border: 1px solid hsl(0, 0%, 25%);
     margin: 5px;
     border-radius: 10px;
-    max-width: 300px;
+    width: 280px;
+    background-color: bisque;
+    display: inline-block;
 }
 .Cardheading{
     background-color: aquamarine;
@@ -16,4 +24,9 @@
     margin: 0;
     padding-left: 20px;
     line-height: 5px;
+    
+}
+.CardBody .email:hover{
+    color: cadetblue;
+    cursor: pointer;
 }
