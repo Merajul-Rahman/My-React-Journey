@@ -8,6 +8,7 @@ import Home from './Home/Home.jsx'
 import Counter from './Counter/Counter.jsx'
 import ColorPicker from './ColorPicker/ColorPicker.jsx'
 import CardGenerator from './Card-Generator/CardGenerator.jsx'
+import TodoList from './Todo-List/Todo-List.jsx'
 
 const router = createBrowserRouter([
   {
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
   {
     path: '/card-generator',
     element: <CardGenerator/>
+  },
+  {
+    path: '/todo-list',
+    element: <TodoList/>
   }
 ])
 

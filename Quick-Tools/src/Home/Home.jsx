@@ -72,11 +72,11 @@ export default function Home() {
   {/* Right Div - Hadiths */}
   <div className="w-[58vw] h-full overflow-x-hidden overflow-y-auto scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-gray-200">
     <p className="text-center text-2xl font-bold pb-2">Hadiths</p>
-    <ul className="space-y-4">
+    <ul className="space-y-4 justify-items-center items-center">
       {Hadiths.map((hadith) => (
         <li
           key={hadith}
-          className="bg-[#b8e2faff] p-2 rounded-xl shadow-lg
+          className="w-[55vw] bg-[#b8e2faff] p-2 rounded-xl shadow-lg
                      hover:shadow-2xl hover:scale-105 transition transform duration-300 ease-in-out"
         >
           {hadith}
