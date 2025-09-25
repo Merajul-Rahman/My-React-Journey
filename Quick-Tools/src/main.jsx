@@ -9,6 +9,7 @@ import Counter from './Counter/Counter.jsx'
 import ColorPicker from './ColorPicker/ColorPicker.jsx'
 import CardGenerator from './Card-Generator/CardGenerator.jsx'
 import TodoList from './Todo-List/Todo-List.jsx'
+import PasswordGenerator from './Password-Generator/Password-Generator.jsx'
 
 const router = createBrowserRouter([
   {
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
   {
     path: '/todo-list',
     element: <TodoList/>
+  },
+  {
+    path: '/password-generator',
+    element: <PasswordGenerator/>
   }
 ])
 
